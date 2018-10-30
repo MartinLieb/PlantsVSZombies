@@ -21,7 +21,7 @@ public class Zombie {
         }
         else {
             this.health -= randomDamage;
-            System.out.println("Zombie blev angrebet og har nu " + this.health + " liv tilbage...");
+            System.out.println("Plant attacked zombie and the zombie now has " + this.health + " HP left");
         }
     }
 

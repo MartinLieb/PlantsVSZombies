@@ -16,12 +16,12 @@ public class Plant {
         int randomDamage = 5 + (int)(Math.random() * ((10 - 5) + 1));
         if (this.health-randomDamage <= 0){
             this.health = 0;
-            System.out.println("Zombie vandt\nVICTORY");
+            System.out.println("Zombie WINS\nVICTORY");
             System.exit(0);
         }
         else {
             this.health -= randomDamage;
-            System.out.println("Plante blev angrebet og har nu " + this.health + " liv tilbage...");
+            System.out.println("Zombie attacked plant and the plant now has " + this.health + " HP left");
         }
     }
 
